@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-style-transfer-claim-audit"
+version = "0.1.0"
+description = "Offline documentation claim auditor for Python repositories"
+requires-python = ">=3.9"
+license = "MIT"
+readme = "README.md"
+
+[project.scripts]
+image-style-transfer-claim-audit = "image_style_transfer_claim_audit.audit:main"
+
+[tool.setuptools.packages.find]
+include = ["image_style_transfer_claim_audit*"]
