@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.egg-info/
+image_style_transfer_claim_audit.egg-info/
+dist/
+build/
+.venv/
